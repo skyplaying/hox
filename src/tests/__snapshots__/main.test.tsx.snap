@@ -1,0 +1,280 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`async state update 1`] = `
+<DocumentFragment>
+  <div>
+    <button>
+      Change
+    </button>
+    <p>
+      0
+    </p>
+    <p>
+      0
+    </p>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`async state update 2`] = `
+<DocumentFragment>
+  <div>
+    <button>
+      Change
+    </button>
+    <p>
+      2
+    </p>
+    <p>
+      2
+    </p>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`call createGlobalStore after HoxRoot get mounted 1`] = `
+<DocumentFragment>
+  <button>
+    Enable
+  </button>
+</DocumentFragment>
+`;
+
+exports[`call createGlobalStore after HoxRoot get mounted 2`] = `
+<DocumentFragment>
+  <button>
+    Enable
+  </button>
+  <div>
+    <button>
+      Change
+    </button>
+    <p>
+      0
+    </p>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`call createGlobalStore after HoxRoot get mounted 3`] = `
+<DocumentFragment>
+  <button>
+    Enable
+  </button>
+  <div>
+    <button>
+      Change
+    </button>
+    <p>
+      1
+    </p>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`children should not have redundant renders 1`] = `
+<DocumentFragment>
+  <button
+    data-testid="parent-button"
+  />
+  <div>
+    <button
+      data-testid="change-button"
+    >
+      Change
+    </button>
+    <p>
+      0
+    </p>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`children should not have redundant renders 2`] = `
+<DocumentFragment>
+  <button
+    data-testid="parent-button"
+  />
+  <div>
+    <button
+      data-testid="change-button"
+    >
+      Change
+    </button>
+    <p>
+      1
+    </p>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`children should update 1`] = `
+<DocumentFragment>
+  <div>
+    <button
+      data-testid="change-button"
+    >
+      Change
+    </button>
+    <div>
+      0
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`children should update 2`] = `
+<DocumentFragment>
+  <div>
+    <button
+      data-testid="change-button"
+    >
+      Change
+    </button>
+    <div>
+      1
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`createGlobalStore with arg 1`] = `
+<DocumentFragment>
+  <div>
+    <button>
+      Change
+    </button>
+    <p>
+      5
+    </p>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`createGlobalStore with arg 2`] = `
+<DocumentFragment>
+  <div>
+    <button>
+      Change
+    </button>
+    <p>
+      6
+    </p>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`depending 1`] = `
+<DocumentFragment>
+  0 | 1
+  <button>
+    increment
+  </button>
+</DocumentFragment>
+`;
+
+exports[`depending 2`] = `
+<DocumentFragment>
+  1 | 1
+  <button>
+    increment
+  </button>
+</DocumentFragment>
+`;
+
+exports[`parent child 1`] = `
+<DocumentFragment>
+  1
+  <div>
+    1
+  </div>
+</DocumentFragment>
+`;
+
+exports[`setState timing 1`] = `
+<DocumentFragment>
+  <div>
+    <p>
+      1
+    </p>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`simple 1`] = `
+<DocumentFragment>
+  <div>
+    <button
+      data-testid="change-button"
+    >
+      Change
+    </button>
+    <p>
+      0
+    </p>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`simple 2`] = `
+<DocumentFragment>
+  <div>
+    <button
+      data-testid="change-button"
+    >
+      Change
+    </button>
+    <p>
+      1
+    </p>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`with extra props passed in 1`] = `
+<DocumentFragment>
+  <button
+    data-testid="change-button"
+  >
+    Change
+  </button>
+  <p>
+    0
+  </p>
+</DocumentFragment>
+`;
+
+exports[`with extra props passed in 2`] = `
+<DocumentFragment>
+  <button
+    data-testid="change-button"
+  >
+    Change
+  </button>
+  <p>
+    1
+  </p>
+</DocumentFragment>
+`;
+
+exports[`withStore 1`] = `
+<DocumentFragment>
+  <div>
+    <button>
+      Change
+    </button>
+    0
+  </div>
+</DocumentFragment>
+`;
+
+exports[`withStore 2`] = `
+<DocumentFragment>
+  <div>
+    <button>
+      Change
+    </button>
+    1
+  </div>
+</DocumentFragment>
+`;
